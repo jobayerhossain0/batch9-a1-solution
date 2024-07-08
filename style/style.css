@@ -11,7 +11,7 @@ body {
 
 /* banner section style starts here  */
 .banner-container {
-  max-width:1320px;
+  max-width: 1320px;
   border-radius: 20px;
   min-height: 600px;
   margin: 0 auto;
@@ -55,10 +55,42 @@ h1 {
 
 /* 65% section style start here  */
 
-.second-section-container{
+.second-section-container {
+  width: 802.9px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.second-section-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 200px;
+  text-align: center;
+}
+.second-section-content p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+.second-section-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.image-container{
     width: 802.9px;
-    height: 700px;
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 90px;
+    height: 500px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
 }
